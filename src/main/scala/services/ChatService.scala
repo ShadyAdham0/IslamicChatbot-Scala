@@ -26,7 +26,7 @@ class ChatService {
       return
     }
 
-    // Find the response with the most keyword matches
+    
     val bestResponse = relevantResponses.maxBy(response =>
       matchedKeywords.count(kw => response.keywords.map(_.toLowerCase).contains(kw.toLowerCase))
     )
