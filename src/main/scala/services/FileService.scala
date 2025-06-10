@@ -23,7 +23,7 @@ class FileService {
     val responses = ArrayBuffer[Response]()
     try {
       Using(Source.fromFile("data/responses.csv")) { source =>
-        for (line <- source.getLines.drop(1)) { // Skip header
+        for (line <- source.getLines.drop(1)) { 
           Try {
             val fields = line.split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)").map(_.trim.stripPrefix("\"").stripSuffix("\""))
             if (fields.length >= 3) {
