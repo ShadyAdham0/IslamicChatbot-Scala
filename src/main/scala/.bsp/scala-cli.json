@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "C:\\Users\\Lenovo\\AppData\\Local\\Coursier\\data\\bin\\.scala-cli.aux.exe",
+    "bsp",
+    "--json-options",
+    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Islamic Chatbot\\src\\main\\scala\\.scala-build\\ide-options-v2.json",
+    "--json-launcher-options",
+    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Islamic Chatbot\\src\\main\\scala\\.scala-build\\ide-launcher-options.json",
+    "--envs-file",
+    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Islamic Chatbot\\src\\main\\scala\\.scala-build\\ide-envs.json",
+    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Islamic Chatbot\\src\\main\\scala"
+  ],
+  "version": "1.6.2",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
