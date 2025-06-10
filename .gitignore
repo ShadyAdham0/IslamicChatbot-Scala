@@ -1,0 +1,32 @@
+# Scala specific
+*.class
+*.log
+.scala-build/
+.bsp/
+.metals/
+.bloop/
+target/
+
+# SBT specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+# IDE specific
+.idea/
+.idea_modules/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS specific
+.DS_Store
+*~
+.*.swp 
